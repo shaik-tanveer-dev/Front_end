@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+        header { text-align: center; border-bottom: 2px solid #eee; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .media-container { background: #f9f9f9; padding: 15px; border-radius: 8px; }
+        iframe { width: 100%; height: 200px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My First Blog</h1>
+        <p>Learning HTML Step by Step</p>
+    </header>
+
+    <section id="welcome">
+        <h2 align="center">Welcome to My Blog!</h2>
+        <p>This is a sample paragraph to show how text appears on a webpage.</p>
+        
+        <p>
+            <b>Bold</b> <i>Italic</i> <del>Deleted</del> <mark>Marked</mark> 
+            x<sub>2</sub> x<sup>2</sup>
+        </p>
+
+        <center>
+            <button type="button" onclick="alert('Hello!')">Click Me</button>
+        </center>
+
+        <marquee scrollamount="5">** Welcome to My Blog! ***</marquee>
+    </section>
+
+    <hr>
+
+    <section>
+        <img src="https://via.placeholder.com/600x200" alt="Blog Banner" style="width:100%; border-radius: 5px;">
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Day 1</td>
+                    <td>HTML Basics</td>
+                    <td>Done</td>
+                </tr>
+                <tr>
+                    <td>Day 2</td>
+                    <td>Links & Lists</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>Day 3</td>
+                    <td>Media</td>
+                    <td>Pending</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="read-more">
+        <h3>Read More</h3>
+        <ul>
+            <li><a href="#welcome">About This Blog</a> (Internal Link)</li>
+            <li><a href="https://www.openai.com" target="_blank">Visit OpenAI</a> (External Link)</li>
+            <li><a href="notes.pdf" download>Download Notes</a> (Downloadable Link)</li>
+        </ul>
+
+        <h4>Description List Example</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <section class="media-container">
+        <h3>Watch & Listen</h3>
+        
+        <video controls width="100%">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <br><br>
+
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <br><br>
+
+        <iframe srcdoc="<p>This is an iframe example.</p>"></iframe>
+    </section>
+
+</body>
+</html>

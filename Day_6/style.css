@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+}
+
+/* ================= NAVBAR ================= */
+
+.main-nav{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+
+.nav-logo{
+    flex: 0.2;
+    height: 100%;
+    background-color: #d3ba28;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-menu{
+    flex: 1;
+    height: 100%;
+    background-color: #f9f7f7;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-btn{
+    flex: 0.3;
+    height: 100%;
+    background-color: #de08ac;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-btn button{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* ================= P1 ================= */
+
+.main-p1{
+    height: 300px;
+    width: 100%;
+    background-color: red;
+
+    display: flex;
+}
+
+.p1-b1{
+    flex: 1;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: column;
+    margin: 5px 30px 5px 50px;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.p1-b2{
+    flex: 1;
+    background-color: blue;
+
+    background-image: url("./images/sample.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ================= P2 ================= */
+
+.main-p2{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(47, 8, 221);
+
+    display: flex;
+}
+
+.p2-b1{
+    flex: 1;
+    background-color: rgb(28, 169, 56);
+}
+
+.p2-b2{
+    flex: 1;
+    background-color: rgb(138, 27, 108);
+}
+
+/* ================= P3 ================= */
+
+.main-p3{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(21, 157, 75);
+
+    display: flex;
+}
+
+.p3-b1{
+    flex: 1;
+    background-color: red;
+}
+
+.p3-b2{
+    flex: 1;
+    background-color: blue;
+}
+
+.p3-b3{
+    flex: 1;
+    background-color: green;
+}
+
+/* ================= P4 ================= */
+
+.main-p4{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(192, 79, 79);
+
+    display: flex;
+}
+
+.p4-b1{
+    flex: 1;
+    background-color: red;
+}
+
+.p4-b2{
+    flex: 1;
+    background-color: rgb(27, 206, 27);
+}
+
+.p4-b3{
+    flex: 1;
+    background-color: blue;
+}
+
+.p4-b4{
+    flex: 1;
+    background-color: yellow;
+}
+
+/* ================= P5 ================= */
+
+.main-p5{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(230, 10, 139);
+}
+
+/* ================= FOOTER ================= */
+
+.main-footer{
+    height: 80px;
+    width: 100%;
+    background-color: #0b81c5;
+}
